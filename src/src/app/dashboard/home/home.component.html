@@ -1,0 +1,88 @@
+
+<br>
+<div class="container" style="background-color: rgb(187, 186, 186)">
+    <!--<p class="text-center">{{homeDetails?.message}}</p>-->
+        <p style="color:#000">{{homeDetails?.message}}</p>
+        <div *ngIf="homeDetails?.pictureUrl"><img src="{{homeDetails?.pictureUrl}}" 
+                *ngIf="homeDetails?.location">
+                <strong style="color:#000">Name:&nbsp;{{homeDetails?.firstName}} {{homeDetails?.lastName}}</strong><br>
+                <strong style="color:#000">Location:&nbsp;{{homeDetails?.location}}</strong>
+        </div>
+        <strong style="color:#000">Member Group: P1234567</strong><hr>
+      <div class="row bg-white"><br>
+          <div class="col-sm-4">
+            <!-- Media top -->
+            <div class="media">
+              <img src="/assets/BCBS-WellMark.png" class="align-self-start mr-3" style="width:90px">
+              <div class="media-body"><br>
+                <h5 style="color:#000">WellMark Benefits PPO</h5>
+                <a href="#" routerLink="/dashboard/client-list" style="color:rgb(24, 23, 23)">Single and Family Plan</a>
+              </div>
+            </div>
+            
+            <!-- Media middle -->
+            <div class="media">
+                <img src="/assets/BCBS-WellMark.png" class="align-self-start mr-3" style="width:90px">
+                <div class="media-body"><br>
+                  <h5 style="color:#000">WellMark Alliance Select</h5>
+                  <a href="#" style="color:rgb(24, 23, 23)">Single and Family Plan - PPO </a>
+                </div>
+              </div>
+            
+            <!-- Media bottom -->
+            <div class="media">
+                <img src="/assets/BCBS-WellMark.png" class="align-self-start mr-3" style="width:90px">
+                <div class="media-body"><br>
+                  <h5 style="color:#000">WellMark Benefits HDHP</h5>
+                  <a href="#" style="color:rgb(24, 23, 23)">Single and Family Plan</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4"><br>
+              <img class="img-fluid" src="/assets/Here4U.png"><br>
+              <div style="color:#000; margin-left:15px">
+                  &nbsp;Enroll in Indentity Protection Services<br>
+                  <a href="#" class="text-center" style="margin-left:90px">myIDcare&reg;</a>
+                </div><br>
+            </div>
+            <div class="col-sm-4"><br>
+              <img class="img-fluid" src="/assets/SpiritLake.jpg" class="align-self-start mr-3" style="width:280px; height:300px">
+              <br><br>
+            </div>
+        </div>
+        <hr>
+      <p class="text-center">
+        <a href="#">&copy;2018 RxBenefitMember.com</a>
+      </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    

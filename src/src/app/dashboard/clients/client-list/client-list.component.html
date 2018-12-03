@@ -1,0 +1,66 @@
+
+<br><br>
+<div class="bg-secondary">
+  <div class="container"><br><br>
+      <form action="/html/tags/html_form_tag_action.cfm">
+        <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-3">2019 WellMark Enrollment - PPO</legend>
+            <div class="col-9">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="legendRadio" id="legendRadio1" value="1">
+                        Employee 1250
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                      <input class="form-check-input" type="radio" name="legendRadio" id="legendRadio2" value="2" checked>
+                      Employee + Family 1250/2500
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="legendRadio" id="legendRadio3" value="3">
+                      Employee +1 Family 1250/2500
+                  </label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+    
+    <div class="form-group row">
+      <label for="first_name" class="col-3 col-form-label">First Name</label>
+        <div class="col-9">
+          <input type="text" id="first_name" name="first_name">
+        </div>
+    </div>
+    <div class="form-group row">
+      <label for="last_name" class="col-3 col-form-label">Last Name</label>
+        <div class="col-9">
+          <input type="text" id="last_name" name="last_name">
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="offset-3 col-9">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div><br>
+    
+      </form>
+  </div> 
+  
+</div>
+
+<!-- Initialize Bootstrap functionality -->
+<script>
+// Initialize tooltip component
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+
+// Initialize popover component
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  })
+</script>
